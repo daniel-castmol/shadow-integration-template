@@ -1,0 +1,15 @@
+{
+    "project_name": "shadow-platform",
+    "project_slug": "{{ cookiecutter.project_name|lower|replace(' ', '_') }}",
+    "author_name": "Daniel Castillo",
+    "description": "Proyecto de integración de la sombra",
+    "python_version": "3.9",
+    "services": [
+        "airflow",
+        "spark",
+        "minio",
+        "backend",
+        "data_pipeline",
+        "embeddings"
+    ]
+}
